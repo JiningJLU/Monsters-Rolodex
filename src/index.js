@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'; //underlying engine
+import ReactDOM from 'react-dom/client'; // engine should be directed towards web related applications
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// app is the whole application
+// strict mode tells us not to use deprecated methods
 root.render(
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>
 );
 
